@@ -1,0 +1,21 @@
+{
+  "documentation": {
+    "source": "project simulation",
+    "n": 5000,
+    "pre": 5.100286,
+    "post": 4.15256,
+    "relative_reduction_percent": 18.581820705740817,
+    "input_sha256": "cd591ef97cfec1dfcdf973cd1039c73b964bd6abbf01cd3dc6df468bd69d0e13"
+  },
+  "burnout": {
+    "source": "https://pubmed.ncbi.nlm.nih.gov/40620477/",
+    "cohort": "external study, 51 paired respondents",
+    "pre_count": 28,
+    "post_count": 17,
+    "denominator": 51,
+    "reported_pre_percent": 54.9,
+    "reported_post_percent": 33.3,
+    "reported_percentage_point_decrease": 21.6
+  },
+  "interpretation": "Separate evidence sources; not joint project outcomes."
+}

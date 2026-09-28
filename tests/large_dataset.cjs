@@ -1,0 +1,50 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+const path=require('node:path');
+(async()=>{
+ const root=path.resolve(__dirname,'..'),out=path.join(root,'results/5000_records');
+ const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+ try {
+  const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[],checks=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(process.env.APP_URL||'http://127.0.0.1:8766');
+  await page.waitForFunction(()=>document.querySelector('#metrics').textContent.includes('18.59%'));
+  checks.push('Original five-row demo loads');
+  await page.setInputFiles('#file',path.join(root,'examples/documentation.csv'));
+  await page.waitForFunction(()=>document.querySelector('#csv').value.includes('C5000'));
+  assert.ok(await page.isDisabled('#export'));
+  await page.selectOption('#metric','time');await page.selectOption('#source','simulated');
+  const started=Date.now();await page.click('#analyze');
+  await page.waitForFunction(()=>document.querySelector('#metrics').textContent.includes('5000'),{},{timeout:30000});
+  const elapsed=Date.now()-started;
+  assert.equal(await page.locator('#chart circle').count(),10000);
+  assert.ok((await page.locator('#source-banner').innerText()).includes('SIMULATED'));
+  checks.push('All 5,000 pairs rendered with 10,000 data points and simulated provenance');
+  const pending=page.waitForEvent('download');await page.click('#export');
+  const download=await pending;await download.saveAs(path.join(out,'research_bundle.json'));
+  const bundle=JSON.parse(await fs.readFile(path.join(out,'research_bundle.json'),'utf8'));
+  assert.equal(bundle.analysis.n,5000);assert.equal(bundle.analysis.rows.length,5000);
+  assert.equal(bundle.analysis.rows.at(-1).clinician_id,'C5000');assert.equal(bundle.analysis.source,'simulated');
+  assert.equal(bundle.input_csv,await fs.readFile(path.join(root,'examples/documentation.csv'),'utf8'));
+  const svgPending=page.waitForEvent('download');await page.click('#figure');
+  await (await svgPending).saveAs(path.join(out,'paired_outcomes.svg'));
+  checks.push('JSON and SVG exports saved; all input records preserved');
+  await page.screenshot({path:path.join(out,'dashboard.png'),fullPage:true});
+  for(const width of [768,390]){await page.setViewportSize({width,height:900});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
+  await page.screenshot({path:path.join(out,'mobile.png'),fullPage:true});
+  checks.push('No horizontal overflow at tablet and mobile widths');
+  const original=await page.locator('#csv').inputValue();
+  await page.fill('#csv',original.replace('C5000,','C01,'));
+  assert.ok(await page.isDisabled('#export'));await page.click('#analyze');
+  await page.waitForFunction(()=>document.querySelector('#error').textContent.includes('unique'));
+  checks.push('Duplicate clinician ID rejected; stale exports disabled');
+  await page.fill('#csv',original);await page.click('#analyze');
+  await page.waitForFunction(()=>document.querySelector('#metrics').textContent.includes('5000'));
+  checks.push('Valid analysis recovers after validation error');
+  assert.deepEqual(errors,[]);
+  const {rows,...summary}=bundle.analysis;
+  await fs.writeFile(path.join(out,'test_report.json'),JSON.stringify({checks,analysis_and_render_ms:elapsed,javascript_errors:errors,summary},null,2));
+  console.log(JSON.stringify({checks,analysis_and_render_ms:elapsed,javascript_errors:errors,summary},null,2));
+ } finally {await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

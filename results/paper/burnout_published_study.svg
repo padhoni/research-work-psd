@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="360pt" viewBox="0 0 504 360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-27T11:46:23.639132</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360 
+L 504 360 
+L 504 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 50.87 299.72 
+L 493.2 299.72 
+L 493.2 26.88 
+L 50.87 26.88 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m652993798b" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m652993798b" x="142.319457" y="299.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: middle" x="142.319457" y="314.318437" transform="rotate(-0 142.319457 314.318437)">Before digital scribe</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m652993798b" x="401.750543" y="299.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: middle" x="401.750543" y="314.318437" transform="rotate(-0 401.750543 314.318437)">After digital scribe</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 50.87 299.72 
+L 493.2 299.72 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <defs>
+       <path id="m49e75cf51b" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="299.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="303.519219" transform="rotate(-0 43.87 303.519219)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 50.87 245.152 
+L 493.2 245.152 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="245.152" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="248.951219" transform="rotate(-0 43.87 248.951219)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 50.87 190.584 
+L 493.2 190.584 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="190.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="194.383219" transform="rotate(-0 43.87 194.383219)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 50.87 136.016 
+L 493.2 136.016 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="136.016" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="139.815219" transform="rotate(-0 43.87 139.815219)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 50.87 81.448 
+L 493.2 81.448 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="81.448" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="85.247219" transform="rotate(-0 43.87 85.247219)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <path d="M 50.87 26.88 
+L 493.2 26.88 
+" clip-path="url(#p3b7f7c9c2b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m49e75cf51b" x="50.87" y="26.88" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 10px 'DejaVu Sans'; text-anchor: end" x="43.87" y="30.679219" transform="rotate(-0 43.87 30.679219)">100</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font: 10px 'DejaVu Sans'; text-anchor: middle" x="18.702813" y="163.3" transform="rotate(-90 18.702813 163.3)">Respondents reporting burnout (%)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 70.975909 299.72 
+L 213.663006 299.72 
+L 213.663006 149.93084 
+L 70.975909 149.93084 
+z
+" clip-path="url(#p3b7f7c9c2b)" style="fill: #c75350"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 330.406994 299.72 
+L 473.094091 299.72 
+L 473.094091 208.86428 
+L 330.406994 208.86428 
+z
+" clip-path="url(#p3b7f7c9c2b)" style="fill: #39916b"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 50.87 299.72 
+L 50.87 26.88 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 50.87 299.72 
+L 493.2 299.72 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: middle" x="142.319457" y="142.851152" transform="rotate(-0 142.319457 142.851152)">54.9%</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 10px 'DejaVu Sans'; text-anchor: middle" x="401.750543" y="201.784593" transform="rotate(-0 401.750543 201.784593)">33.3%</text>
+   </g>
+   <g id="text_12">
+    <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="272.035" y="20.88" transform="rotate(-0 272.035 20.88)">Burnout: separate published study</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font: 9px 'DejaVu Sans'" transform="translate(42.273281 340.921969)">28/51 vs. 17/51 paired respondents; 21.6 percentage-point decrease (rounded percentages).</text>
+   <text style="font: 9px 'DejaVu Sans'" transform="translate(65.001094 351)">Source: PMC12225174. Observational association; not the workflow or CDS cohort.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3b7f7c9c2b">
+   <rect x="50.87" y="26.88" width="442.33" height="272.84"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "provenance": "Transcribed from the user-supplied manuscript screenshot; workflow and CDS sources not yet verified.",
+  "workflow": {
+    "paragraph": [{"category": "Documentation", "pre": 16, "post": 4.5}, {"category": "Order entry", "pre": 4, "post": 1.5}, {"category": "Chart review", "pre": 5, "post": 3}],
+    "chart": [{"category": "Documentation", "pre": 16, "post": 4.5}, {"category": "Chart review", "pre": 4, "post": 1.5}, {"category": "Order entry", "pre": 5, "post": 3}]
+  },
+  "cds": {"months": [1,2,3,4,5,6], "override_percent": [85,70,55,40,30,25], "interaction_percent": [2.6,3.1,4,4.8,5.5,6]},
+  "burnout": {"pre_percent": 54.9, "post_percent": 33.3, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225174/", "note": "Matching published study reports 28/51 versus 17/51 paired respondents. Separate cohort; not established as the source of the screenshot's workflow or CDS values. These rounded percentages describe burnout, not necessarily severe burnout."},
+  "unverified_model_claims": {"f1": 0.71, "drug_interaction_error_percent_upper_bound": 4.8, "note": "Dataset, model, denominator, threshold, error definition, and source citations are needed; these are not inferred from override or interaction rates."}
+}

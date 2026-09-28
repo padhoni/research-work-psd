@@ -1,0 +1,38 @@
+{
+  "sha256": {
+    "analysis.py": "7abb2ae4b76e165e71eba4fc77a9ff5dbe99e206c5df65b03d88871d5a88ff7c",
+    "simulation_study.py": "b2eb98009b07a8b36464fbdf184002b5f715fde23e18593288355fb3ea8eb70e",
+    "publication/build.py": "438cdd6879e6b09178052c1964ed49d3043868d6449394c1bd31a3752a515727",
+    "requirements.txt": "6e69ffe6f7841e5d8aea3f05a4bf77c60055d3b0717fcccbb31fd19647e07b7b",
+    "requirements-publication.txt": "5bd2f3ab49e34dc5953e6d01a28c3d24ea741a545bf52726ee7ddb2fc5c30900",
+    "examples/generate_documentation.py": "d02279286a5e9adde7272795656852f881e0ea48f8f89bb7131078753b1da286",
+    "examples/documentation.metadata.json": "eaf97da68952b9add39335f4c21da919b0c6ab5e213d9316cbe5aa4386006dfa",
+    "Proof of Concept.docx": "17dde86fe508d7ba069793744f497e30daf3951fc1143426834bb8638ed875e2",
+    "publication/results.json": "57b27cc99879dac2ec5a7f12f13c01cb2ba8494c853871375877bcf57895ac3b",
+    "publication/Suggested_Results.docx": "0d21e226ac65e84836afa633c228124a3172dea485667181f3034d8578e2996f",
+    "publication/Suggested_Results.md": "7a7dae754279600de203f27348e7cd212527d64c65573fe2a604e0f8dd42a434",
+    "publication/Methods_and_Limitations.md": "edb2d5a768e5be7464f3ca4c92fcf82aac3717a576931ea5f99655e3b797f75b",
+    "publication/monte_carlo.csv": "7edd3b3c3f843c179fd2649c1ef5a5f2f07b3f5dd035fb64cb802010a1b1d4f9",
+    "static/paper.html": "578901a65852cf6c929fe3ccbb383b90bd46f9e566a2ef2412fa9c532155faec",
+    "server.py": "67eb4f28638730816e601a3375b34a7e5f20c9d61703d7128af375e760742c28",
+    "static/index.html": "5a5456d6f5bdc468145f3d25b201cea9b9ea80fd2bdaf02553c392dd822efbe4",
+    "static/app.js": "2893affe4571912e2b56be18009874c208490b46a43461327a58f4e4a80c5b8b",
+    "static/style.css": "53c273bd6349304e6c1e53a5928fb2279b553791f58c02a588c42d9a1deaf504",
+    "README.md": "7152e13ac9ea538851745f878aaca5b8893f3f221062bdfc5cad897fb0edd5cc",
+    "publication/Manuscript_Change_Guide.md": "d4c1f5c766e66b761171f5c77bb4ffe1dcc17dc7524a1b8e965600870b74657b",
+    "publication/environment.lock.txt": "c5b44137c5fe1c6d78f49e2a8f2fa56b6d666b9d8caae26e4c9a836349a530d3",
+    "publication/figures/cds_counts.pdf": "34a699406f9549d2a32ce1d37c8ea860398b4978af83587f79fce93513dc9860",
+    "publication/figures/cds_counts.png": "3c50772c65850a54ea067345dd0962d8c0e22055f3d2b6afb2033b3b4bf909d0",
+    "publication/figures/cds_counts.svg": "a2e49869ccd496edd1eb5b59b747f43262e6dbfd9743cbac70d07fb16ce0a285",
+    "publication/figures/documentation_means.pdf": "b09d646585d9668130ceed64be2a4e73b87087f7ebc8ba8e417e58c099e7416e",
+    "publication/figures/documentation_means.png": "0230940408be1d73485311be5e249cef95cfddd59eb9e466093b53c37eb4fe54",
+    "publication/figures/documentation_means.svg": "87601aac64bdcf37ca7f6e4584787f586160476c5c638457abf6377fa92a26e9",
+    "publication/figures/monte_carlo_null.pdf": "8f4030b734611ce2952e9272f4b5d19e2a21634da16f2a71307f0fe733125c02",
+    "publication/figures/monte_carlo_null.png": "29f751b261cb45b3f5edb8a667c05d8c8e1add97dac4e19bf45e04c8e0b09ee8",
+    "publication/figures/monte_carlo_null.svg": "a52866fbcd74a4c35c31ec9e9cebe644368fbcbc454bc4963d95009be493a794"
+  },
+  "data_sha256": {
+    "examples/documentation_original.csv": "17dd012a5c9b96f661ff6dc6a0af43ca7397f31d9db9e5793c6b0123e484605b",
+    "examples/documentation.csv": "cd591ef97cfec1dfcdf973cd1039c73b964bd6abbf01cd3dc6df468bd69d0e13"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "Original five-row demo loads",
+    "All 5,000 pairs rendered with 10,000 data points and simulated provenance",
+    "JSON and SVG exports saved; all input records preserved",
+    "No horizontal overflow at tablet and mobile widths",
+    "Duplicate clinician ID rejected; stale exports disabled",
+    "Valid analysis recovers after validation error"
+  ],
+  "analysis_and_render_ms": 186,
+  "javascript_errors": [],
+  "summary": {
+    "n": 5000,
+    "pre": 5.100286,
+    "post": 4.15256,
+    "difference": 0.9477260000000001,
+    "sd": 0.6472083626290156,
+    "reduction": 18.581820705740817,
+    "t": 103.5436993713465,
+    "p": 0,
+    "df": 4999,
+    "ci": [
+      0.9297822845626889,
+      0.9656697154373113
+    ],
+    "dz": 1.4643290394924073,
+    "warnings": [
+      "A before/after comparison does not establish causation. Independent clinicians and approximately normal paired differences are assumed. Repeated encounters must first be aggregated per clinician using a predefined rule.",
+      "SIMULATED DATA: these results demonstrate the method and are not clinical evidence."
+    ],
+    "report": "Simulated paired data from 5000 clinicians were analyzed. Mean pre-intervention and post-intervention values were 5.100 and 4.153 minutes, respectively. The mean paired difference (pre minus post) was 0.948 minutes. The 95% confidence interval was [0.930, 0.966]; two-sided paired t(4999) = 103.544, p below numerical precision; Cohen dz = 1.464. These results do not establish causality or changes in burnout, patient engagement, or clinical safety.",
+    "metric": "time",
+    "source": "simulated"
+  }
+}

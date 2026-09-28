@@ -1,0 +1,89 @@
+{
+  "paired": {
+    "n": 5,
+    "pre": 5.11,
+    "post": 4.159999999999999,
+    "difference": 0.95,
+    "sd": 0.04999999999999993,
+    "reduction": 18.590998043052835,
+    "t": 42.48529157249606,
+    "p": 1.834824355379216e-06,
+    "df": 4,
+    "ci": [
+      0.8879168000898119,
+      1.012083199910188
+    ],
+    "dz": 19.000000000000025,
+    "rows": [
+      {
+        "clinician_id": "C01",
+        "pre": 5.3,
+        "post": 4.3,
+        "difference": 1.0
+      },
+      {
+        "clinician_id": "C02",
+        "pre": 4.9,
+        "post": 4.0,
+        "difference": 0.9000000000000004
+      },
+      {
+        "clinician_id": "C03",
+        "pre": 5.5,
+        "post": 4.5,
+        "difference": 1.0
+      },
+      {
+        "clinician_id": "C04",
+        "pre": 4.8,
+        "post": 3.9,
+        "difference": 0.8999999999999999
+      },
+      {
+        "clinician_id": "C05",
+        "pre": 5.05,
+        "post": 4.1,
+        "difference": 0.9500000000000002
+      }
+    ],
+    "warnings": [
+      "A before/after comparison does not establish causation. Independent clinicians and approximately normal paired differences are assumed. Repeated encounters must first be aggregated per clinician using a predefined rule.",
+      "Small sample: assess paired differences and study design before interpreting inference.",
+      "SIMULATED DATA: these results demonstrate the method and are not clinical evidence."
+    ],
+    "report": "Simulated paired data from 5 clinicians were analyzed. Mean pre-intervention and post-intervention values were 5.110 and 4.160 minutes, respectively. The mean paired difference (pre minus post) was 0.950 minutes. The 95% confidence interval was [0.888, 1.012]; two-sided paired t(4) = 42.485, p = 1.83482e-06; Cohen dz = 19.000. These results do not establish causality or changes in burnout, patient engagement, or clinical safety.",
+    "metric": "time",
+    "source": "simulated"
+  },
+  "cds": {
+    "seed": 42,
+    "n": 10000,
+    "legacy_probability": 0.89,
+    "ai_probability": 0.34,
+    "groups": [
+      {
+        "name": "Legacy CDS",
+        "overrides": 8937,
+        "total": 10000,
+        "rate": 89.37,
+        "ci": [
+          88.75070634996294,
+          89.95905761832998
+        ]
+      },
+      {
+        "name": "AI-assisted CDS",
+        "overrides": 3315,
+        "total": 10000,
+        "rate": 33.15,
+        "ci": [
+          32.23396724788238,
+          34.07897349720941
+        ]
+      }
+    ],
+    "difference_pp": 56.22,
+    "source": "simulated",
+    "note": "Synthetic independent binomial groups, not live CDS Hooks telemetry. A lower override rate does not establish alert quality or clinical safety. Wilson 95% intervals assume independent alerts; real alerts may be clustered."
+  }
+}

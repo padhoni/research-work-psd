@@ -1,0 +1,7 @@
+DOCUMENTATION-ONLY FIGURE (for project Results)
+Fig. X. Simulated documentation time before and after the modeled intervention. Across 5,000 synthetic clinician pairs, mean documentation time was 5.100 and 4.153 minutes per encounter, respectively, corresponding to an 18.58% relative reduction. Bars show descriptive means without error bars. Order-entry and chart-review times were not evaluated. These results illustrate the analytical method and do not establish clinical effectiveness.
+
+COMBINED FIGURE (for an explicitly attributed simulation/literature comparison)
+Fig. X. Documentation burden and burnout from separate evidence sources. (A) Project simulation: documentation time decreased from 5.100 to 4.153 minutes per encounter across 5,000 synthetic pairs (18.58% relative reduction). (B) External published pediatric digital-scribe study: reported burnout decreased from 54.9% (28/51) to 33.3% (17/51) among paired respondents, a 21.6 percentage-point decrease using the reported rounded percentages. Bars show descriptive summaries without error bars. Burnout was not measured in the present simulation. The panels represent different populations and do not establish a causal link between documentation savings and burnout.
+
+Panel B source: Effect of a generative artificial intelligence digital scribe on pediatric provider documentation time, cognitive burden, and burnout. JAMIA Open (2025). PMID: 40620477. https://pubmed.ncbi.nlm.nih.gov/40620477/

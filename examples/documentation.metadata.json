@@ -1,0 +1,17 @@
+{
+  "source": "simulated",
+  "purpose": "Application testing and statistical method demonstration",
+  "record_count": 5000,
+  "original_simulated_records_preserved": 5,
+  "additional_synthetic_records": 4995,
+  "seed": 42,
+  "generator": "Python 3.12 random.Random(seed).gauss",
+  "units": "minutes per encounter",
+  "model": {
+    "pre": "max(0.50, Normal(mean=5.11, sd=0.50))",
+    "change": "Normal(mean=0.95, sd=0.65), independent of pre",
+    "post": "max(0.10, pre - change)",
+    "rounding": "Two decimal places after generating both values"
+  },
+  "interpretation": "All records are synthetic, including the original five. Generated sample size and p-values are not clinical evidence. Select Simulated / demonstration when importing this CSV."
+}

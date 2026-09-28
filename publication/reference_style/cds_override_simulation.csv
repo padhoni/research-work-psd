@@ -1,0 +1,3 @@
+scenario,overrides,alerts,rate_percent,wilson_ci_lower_percent,wilson_ci_upper_percent
+Legacy CDS,8937,10000,89.37,88.75070634996294,89.95905761832998
+AI-assisted CDS,3315,10000,33.15,32.23396724788238,34.07897349720941
